@@ -1,3 +1,2 @@
-# A calculator designed by myself as a final assessment in the Odin Project Course
-# Using the courses teachings of HTML, CSS and JS coding
-# Visit the calculator at 
+# Made with HTML, CSS, and JavaScript
+# Visit the calculator at https://jam-carter.github.io/odin-calculator/
