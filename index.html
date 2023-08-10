@@ -6,37 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="calculator.css">
-    <script src="calculator.js"></script>
 </head>
 <body>
     <div class="main">
         <div class="calculator">
             <div class="screen">
-                <div class="screen-last" id="lastOperationScreen"></div>
-                <div class="screen-current" id="currentOperationScreen">0</div>
+                <p id="current">0</p>
             </div>
             <div class="buttons">
-                <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                <button class="btn-operation">+</button>
-                <button class="btn">4</button>
-                <button class="btn">5</button>
-                <button class="btn">6</button>
-                <button class="btn-operation">-</button>
-                <button class="btn">7</button>
-                <button class="btn">8</button>
-                <button class="btn">9</button>
-                <button class="btn-operation">*</button>
-                <button class="btn-clear">C</button>
-                <button class="btn">0</button>
-                <button class="btn">=</button>
-                <button class="btn-operation">/</button>
+                <button class="btn" id="one">1</button>
+                <button class="btn" id="two">2</button>
+                <button class="btn" id="three">3</button>
+                <button class="btn-operation" id="plus">+</button>
+                <button class="btn" id="four">4</button>
+                <button class="btn" id="five">5</button>
+                <button class="btn" id="six">6</button>
+                <button class="btn-operation" id="minus">-</button>
+                <button class="btn" id="seven">7</button>
+                <button class="btn" id="eight">8</button>
+                <button class="btn" id="nine">9</button>
+                <button class="btn-operation" id="multiply">*</button>
+                <button class="btn-clear" id="clear">C</button>
+                <button class="btn" id="zero">0</button>
+                <button class="btn-operation" id="equals">=</button>
+                <button class="btn-operation" id="divide">/</button>
             </div>
         </div>
     </div>
     <div class="footer">
         <p>Copyright &copy; Jamaul Aaron 2023</p>
     </div>
+    <script src="calculator.js"></script>
 </body>
 </html>
