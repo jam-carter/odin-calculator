@@ -49,6 +49,10 @@
     text-align: right;
     font-size: 40px;
     padding: 10px 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .btn {
@@ -56,6 +60,10 @@
     border: 2px solid black;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.479);
 }
 
 .btn-operation {
@@ -66,12 +74,20 @@
     font-size: 20px;
 }
 
+.btn-operation:hover {
+    background-color: #a4bfeb80;
+}
+
 .btn-clear {
     background-color: #E3655B;
     color: black;
     border: 2px solid black;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.btn-clear:hover {
+    background-color: #e25248e8;
 }
 
 .footer {
